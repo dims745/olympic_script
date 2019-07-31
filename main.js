@@ -50,7 +50,7 @@ function StartALL () {
                       db.run('DELETE FROM sqlite_sequence WHERE name = "athletes";', () => {
                         db.run('DELETE FROM results;', () => {
                           db.run('DELETE FROM sqlite_sequence WHERE name = "results";', () => {
-                            f2()
+                            insertingData()
                           })
                         })
                       })
@@ -65,7 +65,7 @@ function StartALL () {
     })
   }
 
-  function f2 () {
+  function insertingData () {
     db.all('select distinct sport sport from allinfo', (err, rows) => {
       if (err) {
         throw err
