@@ -1,0 +1,33 @@
+{
+  "name": "olympic_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "querystring": "^0.2.0",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dims745/olympic_script.git"
+  },
+  "author": "dimas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dims745/olympic_script/issues"
+  },
+  "homepage": "https://github.com/dims745/olympic_script#readme"
+}
